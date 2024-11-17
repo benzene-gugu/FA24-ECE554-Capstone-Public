@@ -1,0 +1,75 @@
+
+#============================================================
+# GPIO_0, GPIO_0 connect to GPIO Default
+#============================================================
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MOSI0[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SS0_n
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SCLK0
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MOSI0[1]    # which is MOSI0 single
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MOSI0[0]    # which is also MISO1
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MOSI0[2]
+
+
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MOSI1[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SS1_n
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SCLK1
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MOSI1[1]    # which is MOSI0 single
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MOSI1[0]    # which is also MISO1
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MOSI1[2]
+
+
+
+
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MOSI2[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SS2_n
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SCLK2
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MOSI2[1]    # which is MOSI2 single
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MOSI2[0]    # which is also MISO2
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MOSI2[2]
+
+
+
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SS3_n
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MOSI3[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MOSI3[1]    # which is MOSI3 single
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SCLK3    
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MOSI3[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MOSI3[0]    # which is also MISO3
+
+
+
+set_location_assignment PIN_AC18 -to MOSI0[3]
+set_location_assignment PIN_Y17 -to  SS0_n
+set_location_assignment PIN_AD17 -to SCLK0
+set_location_assignment PIN_Y18 -to  MOSI0[1]    # which is MOSI0 single
+set_location_assignment PIN_AK16 -to MOSI0[0]    # which is also MISO1
+set_location_assignment PIN_AK18 -to MOSI0[2]
+
+ 
+set_location_assignment PIN_AJ17 -to MOSI1[3]
+set_location_assignment PIN_AJ16 -to SS1_n
+set_location_assignment PIN_AH18 -to SCLK1
+set_location_assignment PIN_AH17 -to MOSI1[1]    # which is MOSI0 single
+set_location_assignment PIN_AG16 -to MOSI1[0]    # which is also MISO1
+set_location_assignment PIN_AE16 -to MOSI1[2]
+
+
+
+
+set_location_assignment PIN_AE17 -to MOSI2[3]
+set_location_assignment PIN_AC20 -to SS2_n
+set_location_assignment PIN_AH19 -to SCLK2
+set_location_assignment PIN_AJ20 -to MOSI2[1]    # which is MOSI2 single
+set_location_assignment PIN_AH20 -to MOSI2[0]    # which is also MISO2
+set_location_assignment PIN_AK21 -to MOSI2[2]
+
+ 
+ 
+set_location_assignment PIN_AE19 -to SS3_n
+set_location_assignment PIN_AF20 -to MOSI3[3]
+set_location_assignment PIN_AF21 -to MOSI3[1]    # which is MOSI3 single
+set_location_assignment PIN_AF19 -to SCLK3    
+set_location_assignment PIN_AG21 -to MOSI3[2]
+set_location_assignment PIN_AF18 -to MOSI3[0]    # which is also MISO3
+
+ 

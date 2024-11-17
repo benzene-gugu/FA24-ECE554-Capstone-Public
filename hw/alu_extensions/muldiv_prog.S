@@ -1,0 +1,9 @@
+
+LUI x1, 0x11111
+ADD x1, x1, 0x222
+
+LUI x2, 0x88888
+ADD x2, x2, 0x999
+
+MUL x3, x1, x2
+

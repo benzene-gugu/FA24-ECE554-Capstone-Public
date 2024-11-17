@@ -1,0 +1,13 @@
+A Public Copy of the code for the project of Spring 2024 ECE 554 Capstone Project. Manually forked from https://git.doit.wisc.edu/XIA73/doomed
+Here is the original README
+
+https://uwprod-my.sharepoint.com/:w:/r/personal/xia73_wisc_edu/Documents/Temp/ProjectProposalDoc554.docx?d=w748b7ed40d5c42a18a3bfc89c74ea540&csf=1&web=1&e=XIT0MS
+
+Gross instruction stat:
+add			7066
+mul/div/rem	1055
+fp			0 sf, <10 df
+
+dcache simple test:
+direct dram:			1024 ops in 12295 clks
+direct mapped cache:	1024 ops in 10247 clks

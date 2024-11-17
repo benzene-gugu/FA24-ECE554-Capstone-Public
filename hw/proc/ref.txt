@@ -1,0 +1,37 @@
+Fetch
+===
+inst down
+pc_addr down
+new_pc_addr up
+===
+Decode
+===
+is_signed down
+OP1 OP2 RS2 down
+funct3 down
+sel_wb wb_en down
+sel_new_pc down
+cond_br down
+pc_addr down
+mr down
+mw down
+===
+EXEC
+===
+RS2 down
+alu_out down
+sel_wb wb_en down
+sel_new_pc down
+pc_addr down
+mr/mw down
+funct3 down
+===
+MEM
+===
+sel_wb down
+wb_en down
+pc+4 down
+alu_out down
+mem_out down
+wb_en down
+===

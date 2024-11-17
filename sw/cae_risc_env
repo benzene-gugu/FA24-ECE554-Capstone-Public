@@ -1,0 +1,1 @@
+export PATH=$PATH:/groupspace/shared/r/riscv-toolchain/riscv_install_base32/bin
